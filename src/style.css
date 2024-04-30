@@ -1,0 +1,42 @@
+*{
+    margin:0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 20px;
+}
+
+.section{
+    width: 960px;
+    height: 500px;
+    margin: 5rem auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+
+.article{
+    width: 300px;
+    height: 320px;
+    background-color: gray;
+    border-radius: 1.2rem;
+    overflow: hidden;
+}
+
+.article img{
+    width: 100%;
+    object-fit: cover;
+}
+
+.article h2{
+    padding: 10px;
+    font-size: 1.4rem;
+}
+
+.article h4{
+    padding: 10px;
+}
