@@ -19,10 +19,8 @@ const BookList = () => {
     return (
         <section className="section">
             {books.map((book) => {
-            const { img, title, author } = book;
-
-                return  <Book img={img} title={title} author={author}/>
-                
+                const { img, title, author } = book;
+                return <Book img={img} title={title} author={author} />;
             })}
         </section>
     );
@@ -43,5 +41,4 @@ const root = ReactDom.createRoot(document.getElementById("root"));
 
 root.render(<BookList />);
 
-
-// git push : 2;
+// git push : 0;
